@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --verde: #606c38;
+    --Amarelo: #fdc500;
     --alto-contraste-fundo: #283618;
     --alto-contraste-texto: #fefae0;
-    --alto-contraste-link: #90a955;
+    --alto-contraste-link: #fdc500;
 }
 
 body {
@@ -17,19 +17,19 @@ header {
     background-color: #ffffff;
 }
 
+
 section {
     padding-bottom: 5rem;
 }
 
+
 .nav-link {
-    color: #CB6D43;
+    color: #fdc500;
     font-weight: 600;
 }
 
 .inicio-fundo {
-    /* aula 3 */
-    background-image: url('img/plano\ de\ fundo.jpg');
-    /* Substitua pelo caminho da sua imagem */
+    background-image: url('img/Imagem\ de\ fundo\ Skate.jpeg');
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -39,7 +39,6 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
     right: 0;
@@ -48,6 +47,7 @@ section {
     height: auto;
 }
 
+
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
@@ -55,8 +55,9 @@ section {
     gap: 1rem;
 }
 
+
 .botao-inicio {
-    background-color: var(--verde);
+    background-color: var(--Amarelo);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -66,8 +67,9 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--verde);
+    text-shadow: -5px 5px var(--Amarelo);
 }
+
 
 #tropicalia {
     position: relative;
@@ -77,7 +79,6 @@ section {
     background: url('img/Skate\ Q1.png') top right no-repeat,
         url('img/Skate\ Q3.png') bottom left no-repeat;
     background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 #tropicalia .container {
@@ -86,18 +87,18 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
+
 
 h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--verde);
+    color: var(--Amarelo);
 }
 
 #galeria {
-    background-color: #fefae0;
+    background-color: #ffffff;
 
 }
 
@@ -110,31 +111,25 @@ h2 {
     background-image: url('img/plano\ de\ fundo.jpg');
     background-size: cover;
     padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
 }
 
 .formulario {
     background-color: #ffffff;
     padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
-    /* Borda arredondada para o formulário */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #fdc500;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #fefae0;
+    background-color: #F1EDEF;
 }
-
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
@@ -156,7 +151,6 @@ h2 {
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
-
 .apresenta-lista{
     display: none;
 }
@@ -191,7 +185,6 @@ h2 {
 .alto-contraste #galeria {
     background-color: var(--alto-contraste-fundo);
 }
-
 .alto-contraste .fundo-galeria {
     background: none;
 }
